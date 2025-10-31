@@ -1,0 +1,1 @@
+export async function GET(){return new Response(JSON.stringify({ok:false,provider:'ibkr'}),{status:501});}

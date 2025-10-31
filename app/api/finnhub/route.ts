@@ -1,0 +1,1 @@
+export async function GET(){return new Response(JSON.stringify({ok:false,provider:'finnhub'}),{status:501});}
